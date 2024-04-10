@@ -1,8 +1,5 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/widgets.dart';
-
 void main() => runApp(DiceRollApp());
 
 class DiceRollApp extends StatelessWidget {
@@ -119,12 +116,15 @@ class _DiceRollScreenState extends State<DiceRollScreen> {
                         child: Image.asset('assets/images/Button.png'))),
                 Padding(
                   padding: const EdgeInsets.only(left: 80, top: 30),
-                  child: Text(
-                    "Roll Dice",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 30,
-                        color: Colors.white),
+                  child: InkWell(
+                    onTap: rollDice,
+                    child: Text(
+                      "Roll Dice",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 30,
+                          color: Colors.white),
+                    ),
                   ),
                 )
               ],
