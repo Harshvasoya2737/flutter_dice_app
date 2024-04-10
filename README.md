@@ -1,16 +1,5 @@
-# flutter_dice_app
+Dice_app_ui_Image
 
-A new Flutter project.
+![Dice_app_ui_1](https://github.com/Harshvasoya2737/flutter_dice_app/assets/148517061/919063bc-faa5-45e9-a475-924c06090633)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dice_app_ui_screenrecording
